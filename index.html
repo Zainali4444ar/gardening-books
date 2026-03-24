@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Gardening Books Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --brand:#2e7d32;
+      --brand-dark:#1b5e20;
+      --accent:#66bb6a;
+      --bg:#f4fbf6;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --card:#ffffff;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.7;
+    }
+
+    /* ===== Header ===== */
+    header{
+      width:100%;
+      background:linear-gradient(90deg,var(--brand-dark),var(--brand));
+      color:#fff;
+      padding:18px 40px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .logo{
+      font-weight:700;
+      letter-spacing:.5px;
+      white-space:nowrap;
+    }
+
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      font-weight:500;
+      margin-left:22px;
+      opacity:.95;
+      transition:.2s;
+    }
+
+    nav a:hover{opacity:1;text-decoration:underline}
+
+    /* ===== Layout ===== */
+    .container{
+      width:100%;
+      max-width:1200px;
+      margin:0 auto;
+      padding:40px 28px 60px;
+    }
+
+    .hero{
+      background:var(--card);
+      padding:40px;
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+      margin-bottom:36px;
+    }
+
+    h1{
+      margin:0 0 16px;
+      font-size:34px;
+      line-height:1.25;
+      color:var(--brand-dark);
+    }
+
+    h2{
+      margin-top:42px;
+      font-size:24px;
+      color:var(--brand-dark);
+    }
+
+    p{margin:14px 0}
+
+    .lead{
+      font-size:17px;
+      color:#374151;
+    }
+
+    .cta-link{
+      display:inline-block;
+      margin:14px 0 6px;
+      padding:10px 18px;
+      background:var(--brand);
+      color:#fff;
+      text-decoration:none;
+      border-radius:999px;
+      font-weight:600;
+      transition:.2s;
+    }
+
+    .cta-link:hover{background:var(--brand-dark)}
+
+    /* ===== Cards ===== */
+    .card{
+      background:var(--card);
+      padding:28px 30px;
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+      margin-top:26px;
+    }
+
+    /* ===== List ===== */
+    .book-list{
+      padding-left:20px;
+    }
+
+    .book-list li{
+      margin:10px 0;
+    }
+
+    /* ===== Table ===== */
+    .table-wrap{
+      overflow-x:auto;
+      margin-top:16px;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:720px;
+      background:#fff;
+      border-radius:14px;
+      overflow:hidden;
+    }
+
+    th,td{
+      padding:14px 16px;
+      text-align:left;
+    }
+
+    th{
+      background:var(--brand);
+      color:#fff;
+      font-weight:600;
+      font-size:14px;
+      letter-spacing:.4px;
+    }
+
+    tr:nth-child(even){background:#f3faf4}
+
+    /* ===== Footer ===== */
+    footer{
+      background:#0f172a;
+      color:#cbd5e1;
+      padding:40px 28px;
+      margin-top:60px;
+    }
+
+    .footer-inner{
+      max-width:1200px;
+      margin:0 auto;
+      display:flex;
+      flex-wrap:wrap;
+      gap:30px;
+      justify-content:space-between;
+      align-items:flex-start;
+    }
+
+    .footer-brand{
+      font-weight:600;
+      color:#fff;
+      margin-bottom:10px;
+    }
+
+    .social a{
+      display:inline-block;
+      margin-right:14px;
+      margin-top:10px;
+      color:#cbd5e1;
+      text-decoration:none;
+      font-size:14px;
+      transition:.2s;
+    }
+
+    .social a:hover{color:#fff}
+
+    .copyright{
+      text-align:center;
+      margin-top:30px;
+      font-size:13px;
+      color:#94a3b8;
+    }
+
+    @media (max-width:768px){
+      header{flex-direction:column;align-items:flex-start}
+      nav{margin-top:8px}
+      .hero{padding:28px}
+      h1{font-size:26px}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Header (Single Line) ===== -->
+  <header>
+    <div class="logo">Best Gardening Books Guide</div>
+    <nav>
+      <a href="#guide">Guide</a>
+      <a href="#books">Top Books</a>
+      <a href="#compare">Comparison</a>
+      <a href="#benefits">Benefits</a>
+    </nav>
+  </header>
+
+  <!-- ===== Body ===== -->
+  <main class="container">
+
+    <section class="hero" id="guide">
+      <h1>Best Gardening Books for Beginners and Experts — Ultimate Guide</h1>
+      
+      <!-- First Link (Required) -->
+      <a class="cta-link" href="https://bestgardenbooks.com/">best gardening books..</a>
+
+      <p class="lead">
+        Gardening is more than a hobby—it’s a rewarding journey that connects you with nature, improves well-being, and transforms ordinary spaces into living beauty. Whether you’re planting your first seeds in a small backyard or designing a large landscape, the right guidance can save time, reduce mistakes, and boost results.
+      </p>
+
+      <p>
+        Gardening books remain one of the most reliable learning resources. They combine practical instruction, inspiring ideas, and expert knowledge to help readers grow with confidence. Unlike scattered online tips, books provide structured learning, deeper explanations, and tested techniques developed by experienced horticulturists.
+      </p>
+
+      <p>
+        A well-written gardening book becomes a long-term companion you can revisit every growing season. From soil preparation and plant care to garden design and sustainable practices, quality books cover every essential topic in a clear and organized way.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Why Gardening Books Still Matter</h2>
+      <p>
+        Gardening success depends on understanding natural systems. Weather patterns, soil health, plant varieties, pests, and watering schedules all work together. Books explain the “why” behind every method so gardeners can make smart decisions instead of guessing.
+      </p>
+      <p>
+        They also present knowledge step-by-step. Beginners learn foundational skills first, while experienced gardeners explore advanced strategies like crop rotation, companion planting, pruning systems, and ecological garden planning.
+      </p>
+      <p>
+        Many guides include illustrations, planting calendars, troubleshooting charts, and seasonal checklists that are easy to reference while working outdoors.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Choosing the Right Gardening Book</h2>
+      <p>
+        Not all gardening books serve the same purpose. Some focus on edible gardening, others specialize in ornamental plants, while some teach landscape design and sustainability.
+      </p>
+      <p>
+        Beginners should look for simple guides covering tools, soil preparation, watering routines, and easy plants. Vegetable growers benefit from books on kitchen gardens, raised beds, crop planning, and pest control. Landscape lovers should explore design, plant combinations, and long-term maintenance resources.
+      </p>
+      <p>
+        The best book matches your climate, space size, and learning style.
+      </p>
+    </section>
+
+    <section class="card" id="books">
+      <h2>Must‑Read Gardening Books</h2>
+      <ul class="book-list">
+        <li><strong>The Vegetable Gardener’s Bible</strong> — Practical guide for high-yield home vegetable gardening.</li>
+        <li><strong>All New Square Foot Gardening</strong> — Grid-based system perfect for small spaces.</li>
+        <li><strong>Gaia’s Garden</strong> — Leading resource on ecological gardening and permaculture.</li>
+        <li><strong>RHS How to Garden When You’re New to Gardening</strong> — Visual beginner-friendly handbook.</li>
+        <li><strong>The Well‑Tended Perennial Garden</strong> — Advanced pruning and perennial care guide.</li>
+        <li><strong>The Garden Primer</strong> — Complete reference for vegetables, flowers, and organic basics.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="compare">
+      <h2>Comparison of Popular Gardening Books</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Book Title</th>
+              <th>Best For</th>
+              <th>Skill Level</th>
+              <th>Key Strength</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Vegetable Gardener’s Bible</td>
+              <td>Home vegetable growers</td>
+              <td>Beginner to Intermediate</td>
+              <td>High-yield growing methods</td>
+            </tr>
+            <tr>
+              <td>All New Square Foot Gardening</td>
+              <td>Small space gardeners</td>
+              <td>Beginner</td>
+              <td>Simple grid planting system</td>
+            </tr>
+            <tr>
+              <td>Gaia’s Garden</td>
+              <td>Eco-friendly gardeners</td>
+              <td>Intermediate to Advanced</td>
+              <td>Sustainable garden design</td>
+            </tr>
+            <tr>
+              <td>RHS How to Garden When You’re New to Gardening</td>
+              <td>First-time gardeners</td>
+              <td>Beginner</td>
+              <td>Visual step-by-step guidance</td>
+            </tr>
+            <tr>
+              <td>The Well‑Tended Perennial Garden</td>
+              <td>Flower garden lovers</td>
+              <td>Advanced</td>
+              <td>Expert pruning techniques</td>
+            </tr>
+            <tr>
+              <td>The Garden Primer</td>
+              <td>All-round gardeners</td>
+              <td>Beginner to Advanced</td>
+              <td>Complete gardening reference</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" id="benefits">
+      <h2>How Gardening Books Improve Real Results</h2>
+      <p>
+        Gardening books improve practical outcomes by teaching soil testing, plant selection, disease prevention, and proper spacing. Correct sunlight planning and watering methods reduce plant stress and improve growth quality.
+      </p>
+      <p>
+        Seasonal planning ensures seeds are sown at the right time. Crop rotation protects soil fertility, while composting turns kitchen waste into nutrient-rich fertilizer.
+      </p>
+      <p>
+        Design-focused resources help gardeners combine textures, heights, and colors to create balanced landscapes that bloom year-round.
+      </p>
+      <p>
+        Most importantly, books build confidence—turning guesswork into informed gardening decisions.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Print vs Digital Gardening Books</h2>
+      <p>
+        Printed books are convenient outdoors, easy to flip through, and distraction-free. Many gardeners keep them near tools or greenhouses for quick reference.
+      </p>
+      <p>
+        Digital books are portable and searchable. You can highlight sections, zoom into visuals, and carry an entire library on your device.
+      </p>
+      <p>
+        The format depends on preference—the knowledge remains equally valuable.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Building Your Personal Gardening Library</h2>
+      <p>
+        Start with a beginner-friendly guide, then expand into vegetables, landscaping, organic gardening, or regional plant books. Quality resources save money by preventing failed crops and poor planning.
+      </p>
+      <p>
+        Revisit your books each season to reinforce learning and discover new insights as your experience grows.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Conclusion</h2>
+      <p>
+        The best gardening books educate, inspire, and guide gardeners at every level. They simplify complex concepts, provide proven techniques, and help transform ideas into thriving green spaces.
+      </p>
+      <p>
+        Investing in reliable resources today means healthier plants, better harvests, and more enjoyable time spent in nature tomorrow.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Best Gardening Books</div>
+        <div>Your trusted guide to smarter gardening.</div>
+      </div>
+      <div class="social">
+        <div class="footer-brand">Follow Us</div>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter / X</a>
+        <a href="#">Pinterest</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="copyright">
+      © 2026 Best Gardening Books. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
